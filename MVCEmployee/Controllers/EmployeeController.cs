@@ -7,6 +7,7 @@ using System.Data;
 using Employee.BLL;
 using Employee.DTO;
 using Department.DTO;
+using Microsoft.AspNetCore.Http;
 
 namespace MVCEmployee.Controllers
 {
@@ -49,7 +50,6 @@ namespace MVCEmployee.Controllers
         }
         public IActionResult AddEmployeeDetail()
         {
-          //  _employeeManagement.
               return View();
         }
 
@@ -75,8 +75,12 @@ namespace MVCEmployee.Controllers
      
         public IActionResult AddDepartment()
         {
-            
             return View();
+        }
+        public IActionResult AddDepartmentFromFile(string DepartmentName, IFormFile Excelfile)
+        {
+            var departmentDetail = _departmentManagement.AddDepartment(DepartmentName, Excelfile);
+            return View ();
         }
         public IActionResult ShowDepartment()
         {

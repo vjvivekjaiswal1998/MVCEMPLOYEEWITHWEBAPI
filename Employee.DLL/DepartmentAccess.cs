@@ -1,4 +1,5 @@
 ﻿using Department.DTO;
+using Employee.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -16,10 +17,17 @@ namespace Employee.DAL
                 _sqlhelper.EstablishConnection();
                 log.Info("connection has been established");
         }
-        public void SaveDepartmentDetail(DepartmentDetail departmentDetail)
+        public void SaveDepartmentDetail(EmployeeDetail employeeDetail)
+        {
+            _sqlhelper.FillDetail();
+            log.Info("Fill the Details");
+            _sqlhelper.SaveDepartmentDetail(employeeDetail);
+        }
+        public void SaveDepartment(DepartmentDetail departmentDetail )
         {
             _sqlhelper.DepartmentFillDetail();
             log.Info("Fill the Details");
+            _sqlhelper.SaveDepartment(departmentDetail);
         }
         public DataTable ShowDepartmentDetail()
         {

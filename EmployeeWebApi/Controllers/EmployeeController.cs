@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
@@ -45,25 +46,26 @@ namespace EmployeeWebApi.Controllers
 
         }
         [HttpGet]
-        public ActionResult<List<string>> ShowEmployeeDetail()
+        public ActionResult<List<EmployeeDetail>> ShowEmployeeDetail()
         {
             List<EmployeeDetail> employeeDetail = _employeeManagement.ShowAllEmployeeDetail();
-            List<string> all = new List<string>();
-            foreach (EmployeeDetail employeeDetails in employeeDetail)
-            {
-                System.IO.StringWriter writer = new System.IO.StringWriter();
-                new XmlSerializer(employeeDetail.GetType()).Serialize(writer, employeeDetail);
-                string xml = writer.ToString();
-                all.Add(xml);
-            }
-            return all;
+            return employeeDetail;
+            //List<string> all = new List<string>();
+            //foreach (EmployeeDetail employeeDetails in employeeDetail)
+            //{
+            //    StringWriter writer = new StringWriter();
+            //    new XmlSerializer(employeeDetail.GetType()).Serialize(writer, employeeDetail);
+            //    string xml = writer.ToString();
+            //    all.Add(xml);
+            //}
+            //return all;
         }
         [HttpGet("{EmployeeID}")]
         public string GetEmployeeDetail(int EmployeeID)
         {
             EmployeeDetail employeeDetail = _employeeManagement.GetSingleEmployeeDetail(EmployeeID);
             // return employeeDetail;
-            System.IO.StringWriter writer = new System.IO.StringWriter();
+          StringWriter writer = new StringWriter();
             new XmlSerializer(employeeDetail.GetType()).Serialize(writer, employeeDetail);
             string xml = writer.ToString();
             return xml;

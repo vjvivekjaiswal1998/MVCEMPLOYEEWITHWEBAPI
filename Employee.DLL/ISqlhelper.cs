@@ -13,6 +13,7 @@ namespace Employee.DAL
         DataTable DepartmentFillDetail();
         void SaveEmployeeDetail(EmployeeDetail employeeDetail);
         void UpdateEmployeeDetail(int accountid, int Experience, string MarriedStatus);
-        void SaveDepartmentDetail(DepartmentDetail departmentDetail);
+        void SaveDepartmentDetail(EmployeeDetail employeeDetail);
+        void SaveDepartment(DepartmentDetail departmentDetail);
     }
 }

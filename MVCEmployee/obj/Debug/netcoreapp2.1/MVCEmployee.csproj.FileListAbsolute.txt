@@ -22,7 +22,6 @@ C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\bin\Debug\netcoreapp
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\MVCEmployee.TagHelpers.input.cache
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\MVCEmployee.TagHelpers.output.cache
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\MVCEmployee.RazorCoreGenerate.cache
-C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\Razor\Views\Employee\AddDepartment.g.cshtml.cs
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\Razor\Views\Employee\AddEmployeeDetail.g.cshtml.cs
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\Razor\Views\Employee\Default.g.cshtml.cs
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\Razor\Views\Employee\DefaultLayout.g.cshtml.cs
@@ -51,3 +50,5 @@ C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\MVCEmployee.dll
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\MVCEmployee.pdb
 C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\Razor\Views\Employee\ShowDepartment.g.cshtml.cs
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\Razor\Views\Employee\AddDepartment.g.cshtml.cs
+C:\Users\vivek.jaiswal\source\repos\MVCEmployee\MVCEmployee\obj\Debug\netcoreapp2.1\Razor\Views\Employee\AddDepartmentFromFile.g.cshtml.cs

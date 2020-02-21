@@ -207,12 +207,12 @@ using MVCEmployee.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n\r\n    ");
             EndContext();
             BeginContext(1502, 175, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3524e965d3fe4987a1706fa716c106f5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e6d2273cb66440df9035a9fc4c7e4b73", async() => {
                 BeginContext(1542, 84, true);
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Delete\" class=\"btn btn-default\" /> |\r\n        ");
                 EndContext();
                 BeginContext(1626, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3bcc0147b2134014a3e017977587a68d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aa817a15c576485a8422849e66d7d909", async() => {
                     BeginContext(1648, 12, true);
                     WriteLiteral("Back to List");
                     EndContext();
@@ -257,7 +257,7 @@ using MVCEmployee.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(1717, 81, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7cb1d617c00441bc9b7c423f3e261b26", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "77b99307ed8c4547bef0c7662d7d1c88", async() => {
                     BeginContext(1740, 1, true);
                     WriteLiteral(" ");
                     EndContext();
@@ -286,7 +286,7 @@ using MVCEmployee.Models;
                 WriteLiteral("<br />\r\n    ");
                 EndContext();
                 BeginContext(1810, 83, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f4b657cf52874a21a056e0fda8909f06", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a969733bd9874a3db4b87bec6abf2a37", async() => {
                     BeginContext(1833, 1, true);
                     WriteLiteral(" ");
                     EndContext();
